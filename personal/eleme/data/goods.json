@@ -1,0 +1,106 @@
+[
+  {
+    "type":"招牌套餐",
+    "foods":[
+      {"type":"招牌套餐","name":"麦趣鸡盒（含麦乐鸡）","info":"麦乐鸡7块 香骨鸡腿3个 麦辣鸡翅6块 中可乐2杯","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"招牌套餐","name":"3人豪情派对餐","info":"巨无霸1个 原味板烧鸡腿堡1个 经典麦辣鸡腿汉堡1个 麦乐鸡5块 麦辣鸡翅4块 美汁源阳光橙1杯 中可乐2杯 香芋派1个 小玉米1份 大薯条1份","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"招牌套餐","name":"小食纷享盒B","info":"椒盐味大鸡排1份 麦辣鸡翅2块 芝士烧烤风味酱薯条1份","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"招牌套餐","name":"小食纷享盒A","info":"椒盐味大鸡排1份 麦乐鸡4块 芝士烧烤风味酱薯条1份","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"招牌套餐","name":"3人豪情派对餐","info":"巨无霸1个 原味板烧鸡腿堡1个 经典麦辣鸡腿汉堡1个 麦乐鸡5块 麦辣鸡翅4块 美汁源阳光橙1杯 中可乐2杯 香芋派1个 小玉米1份 大薯条1份","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"招牌套餐","name":"小食纷享盒B","info":"椒盐味大鸡排1份 麦辣鸡翅2块 芝士烧烤风味酱薯条1份","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"招牌套餐","name":"小食纷享盒A","info":"椒盐味大鸡排1份 麦乐鸡4块 芝士烧烤风味酱薯条1份","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"招牌套餐","name":"麦趣鸡盒（含椒盐味大鸡排）","info":"香骨鸡腿3个 椒盐味大鸡排1份切成4小块 麦辣鸡翅6块 中可乐2杯","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"打赏小费",
+    "foods":[
+      {"type":"打赏小费","name":"脆香童子饼+饮料","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"打赏小费","name":"蜜汁童子饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"打赏小费","name":"红烧童子饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"打赏小费","name":"油炸童子饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"打赏小费","name":"蜜汁童子饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"打赏小费","name":"红烧童子饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"打赏小费","name":"油炸童子饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"打赏小费","name":"清蒸童子饼+饮料","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"特惠大餐",
+    "foods":[
+      {"type":"特惠大餐","name":"脆香鸡+薯饼+饮料","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"特惠大餐","name":"蜜汁鸡+薯饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"特惠大餐","name":"红烧鸡+薯饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"特惠大餐","name":"油炸鸡+薯饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"特惠大餐","name":"蜜汁鸡+薯饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"特惠大餐","name":"红烧鸡+薯饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"特惠大餐","name":"油炸鸡+薯饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"特惠大餐","name":"清蒸鸡+薯饼+饮料","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"特价优惠",
+    "foods":[
+      {"type":"特价优惠","name":"脆香童子鸡+薯饼","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"特价优惠","name":"蜜汁童子鸡+薯饼","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"特价优惠","name":"红烧童子鸡+薯饼","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"特价优惠","name":"油炸童子鸡+薯饼","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"特价优惠","name":"蜜汁童子鸡+薯饼","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"特价优惠","name":"红烧童子鸡+薯饼","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"特价优惠","name":"油炸童子鸡+薯饼","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"特价优惠","name":"清蒸童子鸡+薯饼","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"热销推荐",
+    "foods":[
+      {"type":"热销推荐","name":"脆香鸡+薯饼","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"热销推荐","name":"蜜汁鸡+薯饼","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"热销推荐","name":"红烧鸡+薯饼","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"热销推荐","name":"油炸鸡+薯饼","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"热销推荐","name":"蜜汁鸡+薯饼","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"热销推荐","name":"红烧鸡+薯饼","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"热销推荐","name":"油炸鸡+薯饼","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"热销推荐","name":"清蒸鸡+薯饼","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"汉堡套餐",
+    "foods":[
+      {"type":"汉堡套餐","name":"脆香薯饼+饮料","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"汉堡套餐","name":"蜜汁薯饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"汉堡套餐","name":"红烧薯饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"汉堡套餐","name":"油炸薯饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"汉堡套餐","name":"蜜汁薯饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"汉堡套餐","name":"红烧薯饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"汉堡套餐","name":"油炸薯饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"汉堡套餐","name":"清蒸薯饼+饮料","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"鸡肉卷套餐",
+    "foods":[
+      {"type":"鸡肉卷套餐","name":"脆鸡+薯饼+饮料","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"鸡肉卷套餐","name":"蜜鸡+薯饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"鸡肉卷套餐","name":"红鸡+薯饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"鸡肉卷套餐","name":"油鸡+薯饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"鸡肉卷套餐","name":"蜜鸡+薯饼+饮料","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"鸡肉卷套餐","name":"红鸡+薯饼+饮料","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"鸡肉卷套餐","name":"油鸡+薯饼+饮料","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"鸡肉卷套餐","name":"清鸡+薯饼+饮料","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  },
+  {
+    "type":"下午茶小吃",
+    "foods":[
+      {"type":"下午茶小吃","name":"脆香薯饼","info":"","sales":"26","price":"32","likes":"50","imgsrc":"images/shopping/food_01.png"},
+      {"type":"下午茶小吃","name":"蜜汁薯饼","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"下午茶小吃","name":"红烧薯饼","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"下午茶小吃","name":"油炸薯饼","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"下午茶小吃","name":"蜜汁薯饼","info":"","sales":"36","price":"42","likes":"60","imgsrc":"images/shopping/food_02.png"},
+      {"type":"下午茶小吃","name":"红烧薯饼","info":"","sales":"46","price":"52","likes":"70","imgsrc":"images/shopping/food_03.png"},
+      {"type":"下午茶小吃","name":"油炸薯饼","info":"","sales":"56","price":"62","likes":"80","imgsrc":"images/shopping/food_04.png"},
+      {"type":"下午茶小吃","name":"清蒸薯饼","info":"","sales":"66","price":"72","likes":"90","imgsrc":"images/shopping/food_05.png"}
+    ]
+  }
+]

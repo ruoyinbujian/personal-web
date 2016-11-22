@@ -1,0 +1,67 @@
+<ion-view class="home">
+	<ion-header-bar class="bar-calm icon-right" align-title="right">
+		<div class="title">
+			<label class="item-input icon-left calm-bg location_input light">
+				<i class="icon ion-location"></i>
+				<input type="text" value="火星时代">
+				<a class="button button-icon ion-search" ui-sref="tabs.address"></a>
+			</label>
+		</div>
+	</ion-header-bar>
+	<ion-content class="has-header home-content sellers" ng-controller="sellersCtrl">
+		<ion-refresher pulling-icon="icon ion-load-d calm"
+					   pulling-text="下拉刷新"
+					   on-pulling = "onRefresh()"></ion-refresher>
+		<ion-slide-box auto-play="true" slide-interval="1500" show-pager="true" does-continue="true" class="home-banner">
+			<ion-slide ng-repeat="img in homeData.banner">
+				<div class="box">
+					<img ng-src="{{img.imgsrc}}">
+				</div>
+			</ion-slide>
+		</ion-slide-box>
+		<div class="card home-icons">
+			<div class="row row-wrap">
+				<a class="col col-25 text-center" href="#" ng-repeat="icons in homeData.icons" ui-sref="tabs.sellers">
+					<img ng-src="{{icons.imgsrc}}"><br>
+					<span>{{icons.name}}</span>
+				</a>
+			</div>
+		</div>
+		<ion-list class="home-sellers">
+			<ion-item class="item-divider item-icon-left light-bg sellers-title">
+				<i class="icon ion-ios-home-outline"></i>
+				<h3>附近商家</h3>
+			</ion-item>
+			<ion-item class="item-thumbnail-left the-seller" ng-repeat="item in seller" ui-sref="tabs.shopping">
+				<img ng-src="{{item.imgsrc}}" class="seller-img">
+				<h3 class="seller-title item-divider light-bg">
+					<i class="main brand" ng-show="isShow.hot(item)">品牌</i>
+					<span class="main buttons-left">{{item.name}}</span>
+					<span class="note seller-title-icon">
+						<i class="title-icon" ng-show="isShow.protect(item)">保</i>
+						<i class="title-icon" ng-show="isShow.bill(item)">票</i>
+					</span>
+				</h3>
+				<p>
+					<span class="main stars">
+						<img src="images/home/stars1.png" style="background-position-x:{{item.rated*1.5-75}}px">
+						<span class="assertive rated"> {{item.rated/10}}</span>
+					</span>
+					<span class="main month"> 月售{{item.sales}}单</span>
+					<span class="note">
+						<i class="title-icon intime" ng-show="isShow.intime(item)">准时达</i>
+						<i class="title-icon express" ng-show="isShow.express(item)">蜂鸟快送</i>
+					</span>
+				</p>
+				<p>
+					<span class="main atleast">￥{{item.atleast}}起送  <span style="font-size: 10px; color:#666">/</span>  配送费￥{{item.distribution}}</span>
+					<span class="note">{{item.howfar}}m / <span class="calm"> {{item.when}}分钟</span></span>
+				</p>
+			</ion-item>
+		</ion-list>
+		<a class="item item-divider item-icon-right text-center" ui-sref="tabs.sellers">
+			<h2>更多美食</h2>
+			<i class="icon ion-arrow-right-a"></i>
+		</a>
+	</ion-content>
+</ion-view>

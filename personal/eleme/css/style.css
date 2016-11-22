@@ -1,0 +1,22 @@
+.sellers .home-content{background: #efefef;}
+.sellers .home-banner .box img{width:100%}
+.sellers .home-icons{margin:3px 3px 15px; border-radius: 20px;}
+.sellers .home-icons a{text-decoration: none;}
+.sellers .home-icons a img{width:54px;}
+.sellers .home-icons a span{color:#666; font-size:14px;}
+.sellers .home-sellers .sellers-title i{font-size: 22px; color:#666}
+.sellers .home-sellers .sellers-title h3{font-family: "微软雅黑","宋体","arial"; color:#666}
+.sellers .seller-img{border-radius: 8px;}
+.sellers .the-seller .seller-title{font-weight: bolder; font-size:18px;font-family: "微软雅黑","宋体","arial"; color:#333; padding: 3px; height: 28px;}
+.sellers .the-seller p{padding: 2px 0;}
+.sellers .rated{padding:0 6px; font-size:12px;}
+.sellers .note{float:right; color:#999; font-size:12px;}
+.sellers .main{float:left;}
+.sellers .main.month{font-size: 12px;}
+.sellers .main.atleast{font-size: 12px;}
+.sellers .main.stars img{height: 13px; background:url("../images/home/stars_bg.jpg") no-repeat;}
+.sellers .main.brand{font-size:10px; background: #e6b500; padding: 1px 2px; margin-top:3px; margin-right: 4px; border-radius: 3px; color:#333;}
+.sellers .seller-title-icon{margin-top:-3px;}
+.sellers .title-icon{display:inline-block; text-align: center; font-size:10px; padding: 2px; border-radius: 3px; font-weight: normal; line-height: 12px; border:1px solid #ccc;}
+.sellers .title-icon.intime{border:1px solid #11c1f3; color:#0a9dc7}
+.sellers .title-icon.express{background: #4b8bf4; color:#fff;border:1px solid #4b8bf4;}

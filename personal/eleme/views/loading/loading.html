@@ -1,0 +1,14 @@
+<ion-view class="loading">
+    <span ng-click="skip()">跳过</span>
+    <ion-slide-box show-pager="true" on-slide-changed="onSlideChanged()">
+        <ion-slide>
+            <img src="images/loading/loading_01.png">
+        </ion-slide>
+        <ion-slide>
+            <img src="images/loading/loading_02.png">
+        </ion-slide>
+        <ion-slide on-swipe-left="swipeLeft()">
+            <img src="images/loading/loading_03.jpg">
+        </ion-slide>
+    </ion-slide-box>
+</ion-view>

@@ -1,0 +1,341 @@
+a {
+    text-decoration: none;
+    color: #6f6f6f
+}
+
+.bar .button.button-clear {
+    font-size: 15px;
+}
+
+#side_img {
+    font-size: 0;
+}
+
+.col {
+    padding: 0 3px;
+}
+
+.col2 {
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+#avatar_img {
+    font-size: 13px;
+}
+
+#personlogin {
+    background: #ddd;
+}
+
+#personlogin p span {
+    float: left;
+}
+
+#personlogin p a {
+    float: right;
+}
+
+#personlogin .card {
+    width: 100%;
+    margin-left: 0;
+}
+
+#personlogin #personcard {
+    margin-top: 0;
+}
+
+#avatar_img img {
+    border-radius: 50%;
+    width: 60%;
+}
+
+#side_img img {
+    height: 190px;
+    width: 100%;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+.mylist {
+    text-align: center;
+}
+
+#personcard .item h3 {
+    margin-top: 10px;
+}
+
+.item a {
+    float: right;
+    color: #a1a1a1;
+}
+
+.item span {
+    float: left;
+}
+
+#view-icon .view-ion {
+    font-size: 20em;
+}
+
+#slideimg2 .slide1 {
+    position: relative
+}
+
+#slideimg2 .slidep1 {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    right: 0;
+    bottom: 0;
+    color: #f4f4f4;
+    opacity: 0.8;
+}
+
+#slideimg2 .slide2 {
+    position: relative
+}
+
+#slideimg2 .slidep2 {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    right: 0;
+    bottom: 0;
+    color: #f4f4f4;
+    opacity: 0.8;
+}
+
+#slideimg2 .slide3 {
+    position: relative
+}
+
+#slideimg2 .slidep3 {
+    width: 100px;
+    height: 30px;
+    background:#ddd;
+    border: 2px solid #c1c1c1;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    color: #2d7ba3;
+    opacity: 0.8;
+    margin-left: -50px;
+}
+
+#view-icon .slider {
+    height: 100%;
+}
+
+#view-icon .slider-slide {
+    text-align: center;
+    /*margin-top: 180px;*/
+}
+
+.tabs {
+    height: 50px;
+}
+
+.tab-item .icon {
+    margin: 2px auto 0;
+    color: #ff963a;
+    display: block;
+    height: 25px;
+    font-size: 25px;
+}
+
+#row_img img {
+    width: 100%;
+}
+
+#header_icon {
+    color: #ff963a;
+}
+
+.item-input-wrapper {
+    padding-right: 0;
+}
+
+#slideimg2 img {
+    width: 100%;
+    height: 100%;
+!important
+}
+
+.list-inset {
+    margin: 1px 4px 3px;
+    text-align: center;
+}
+
+.card {
+    margin: 3px 2px;
+    text-align: center;
+}
+
+#content {
+    font-size: 13px;
+    color: #aaaaaa;
+    background: #eeeeee;
+    text-align: center;
+}
+
+#content h4 {
+    font-size: 14px;
+    font-family: "新宋体";
+    font-weight: normal;
+    color: #ff963a;
+}
+
+#content #foodList {
+    background: #fff;
+}
+
+.foodList .imgBox {
+    width: 100%;
+    height: 200px;
+    margin-top: 7px;
+}
+
+.foodList .imgBox img {
+    width: 95%;
+    height: 200px;
+}
+
+.card3 {
+    width: 95%;
+    margin: 6px auto;
+    text-align: left;
+}
+
+.card4 {
+    width: 96%;
+    margin: 10px auto;
+}
+
+.card5 {
+    width: 100%;
+    padding-left: 0;
+}
+
+.card5 img {
+    width: 98%;
+    display: block;
+}
+
+.float1 {
+    float: right;
+}
+
+.float1 i {
+    color: red;
+}
+
+#sideList a {
+    color: #FF963A;
+}
+
+.talkList {
+    width: 96%;
+    margin: 5px auto;
+    text-align: left;
+}
+
+.talkList .detailList img {
+    width: 100%;
+    display: block;
+}
+
+.foodList .tabs {
+    background: #fff;
+    color: black;
+    height: 30px;
+    position: relative;
+}
+
+.cardinset {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.cardinset img {
+    width: 100%;
+    display: block;
+}
+
+.cailiao {
+    wdith: 96%;
+    margin: 10px auto;
+}
+
+.cailiao p i {
+    color: #FF963A;
+    float: left;
+}
+
+.cailiao p a {
+    float: right;
+    padding-right: 30px;
+}
+
+.card .zuofa {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.cailiao .bacg {
+    background: #e0e0e0
+}
+
+#side_img2 img {
+    width: 100%;
+    display: block;
+}
+
+.zuofa img {
+    width: 100%;
+    display: block;
+}
+
+.cardinset, .detailtime, .zuofa {
+    text-align: left;
+}
+
+#detailtitle {
+    font-size: 14px;
+}
+
+.shangshow {
+    text-align: left;
+}
+
+.shangshow .neishow {
+    width: 96%;
+    margin: 10px auto;
+}
+
+.shangshow .neishow img {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.foodList .icon-left {
+    font-size: 13px;
+    color: #6a5536;
+}
+
+.item, .col {
+    cursor: pointer;
+}
+
+#talkside_img img {
+    display: block;
+    width: 100%;
+    height: 170px;
+}
+
+.tab-item .tab-title {
+    font-size: 14px;
+    color: #FF963A;
+    font-family: "宋体";
+}

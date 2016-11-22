@@ -1,0 +1,16 @@
+{
+  "totalPages":"10",
+  "currentPage": 1,
+  "sellers":[
+    {"imgsrc":"images/seller/icon_01.jpeg","hot":"true","name":"汉堡家","protect":"true","bill":"true","rated":"36","sales":"2706","express":"true","intime":"true","atleast":"20","distribution":"4","howfar":"985","when":"37"},
+    {"imgsrc":"images/seller/icon_02.jpeg","hot":"false","name":"顺口香湘菜馆","protect":"true","bill":"false","rated":"37","sales":"4342","express":"false","intime":"false","atleast":"20","distribution":"4","howfar":"1420","when":"34"},
+    {"imgsrc":"images/seller/icon_03.jpeg","hot":"true","name":"明星麻辣烫","protect":"true","bill":"false","rated":"39","sales":"3752","express":"true","intime":"true","atleast":"22","distribution":"3","howfar":"1553","when":"38"},
+    {"imgsrc":"images/seller/icon_04.jpeg","hot":"true","name":"正宗重庆麻辣烫","protect":"false","bill":"false","rated":"43","sales":"3790","express":"false","intime":"false","atleast":"30","distribution":"4","howfar":"990","when":"31"},
+    {"imgsrc":"images/seller/icon_05.jpeg","hot":"true","name":"十三郎麻辣烫","protect":"true","bill":"false","rated":"40","sales":"4342","express":"false","intime":"true","atleast":"25","distribution":"4","howfar":"1271","when":"39"},
+    {"imgsrc":"images/seller/icon_06.jpeg","hot":"false","name":"西安老王家","protect":"true","bill":"false","rated":"41","sales":"3752","express":"true","intime":"true","atleast":"18","distribution":"5","howfar":"1266","when":"36"},
+    {"imgsrc":"images/seller/icon_07.jpeg","hot":"true","name":"窑鸡王","protect":"false","bill":"true","rated":"44","sales":"1302","express":"true","intime":"true","atleast":"24","distribution":"4","howfar":"2354","when":"29"},
+    {"imgsrc":"images/seller/icon_08.jpeg","hot":"true","name":"久红烧烤","protect":"true","bill":"true","rated":"43","sales":"2706","express":"false","intime":"false","atleast":"20","distribution":"3","howfar":"1822","when":"46"},
+    {"imgsrc":"images/seller/icon_09.jpeg","hot":"false","name":"广来餐馆","protect":"false","bill":"false","rated":"47","sales":"2706","express":"true","intime":"true","atleast":"38","distribution":"8","howfar":"1440","when":"34"},
+    {"imgsrc":"images/seller/icon_10.jpeg","hot":"true","name":"汕头肠粉王","protect":"true","bill":"false","rated":"40","sales":"2706","express":"false","intime":"false","atleast":"20","distribution":"5","howfar":"1722","when":"30"}
+  ]
+}

@@ -1,0 +1,13 @@
+.mine .user{margin-bottom: 10px;}
+.mine .bar-header .title{padding-left: 10px;}
+.mine .bar-header .buttons .button{font-size:24px; margin: 0 10px;}
+.mine .user .user-info p{color:#fff}
+.mine .user .user-info .button{color:#fff;font-size:36px;margin-top:10px;}
+.mine .user .balan p{color:rgb(255, 153, 0);}
+.mine .user .balan p span{font-size:26px; line-height: 26px;}
+.mine .user .gift {border-left: 1px solid #eee; border-right: 1px solid #ddd;}
+.mine .user .gift p{color:rgb(255, 95, 62);}
+.mine .user .gift p span{font-size:26px; line-height: 26px;}
+.mine .user .integral p{color:rgb(106, 194, 11);}
+.mine .user .integral p span{font-size:26px; line-height: 26px;}
+.mine .user .row p:nth-child(2){color:rgb(102, 102, 102);font-size:14px; margin-top:8px;}

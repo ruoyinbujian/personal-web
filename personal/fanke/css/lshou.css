@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#shop{
+	width:275px ;
+	height: 285px;
+	border: 1px solid #727171;
+	margin: 40px auto;
+	position: relative;
+	
+}
+#shop:hover{
+	border: 1px solid red;
+}
+/*图片样式*/
+#shop img{
+	width: 275px;
+	height: 175px;
+}
+/*图片样式结束*/
+/*图片下方文字1*/
+#shop .name1 a{
+	text-decoration: none;
+	position: absolute;
+	top: 190px;
+	left: 16px;
+	color: #3D3D3D;
+	font-size: 15px;
+	font-family: "微软雅黑";
+	height: 24px;
+	line-height: 24px;
+	font-weight: 700;
+}
+/*图片下方文字1结束*/
+/*图片下方文字2*/
+#shop .name2 a{
+	text-decoration: none;
+	position: absolute;
+	top: 220px;
+	left: 24px;
+	color: rgb(61,61,61);
+	font-size: 15px;
+	font-family: "微软雅黑";
+	height: 20px;
+	line-height: 20px;
+	font-weight: 400;
+}
+#shop .name2 a:hover{
+	color: black;
+}
+/*图片下方文字2结束
+ */
+/*价格188效果*/
+#shop .money{
+	position: absolute;
+	bottom: 12px;
+	left: 24px;
+	color: #FF7E00;
+	font-family: arial;
+	font-size: 26px;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 400px;
+	
+}
+#shop .money span{
+	margin-left: 3px;
+}
+
+/*价格188效果结束*/
+/*删除原价效果*/
+#shop .old{
+	position: absolute;
+	left: 92px;
+	bottom: 15px;
+	font-family: "宋体";
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	font-weight: 400px;
+	color: #B0B0B0;
+}
+
+#shop .old span{
+	text-decoration: line-through;
+}
+/*删除原价效果结束*/
+/*已售效果*/
+#shop .yimai{
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	font-family: "宋体";
+	font-size: 14px;
+	height: 18px;
+	line-height: 18px;
+	font-weight: 400px;
+	color: #B0B0B0;
+}
+#shop .yimai span{
+	color: #FF7E00;
+}
+/*已售效果结束*/
+/*背景图*/
+#more{
+	width: 52px;
+	height: 28px;
+	background: url(../images/bglashou.png) no-repeat -108px 0px;
+	position: absolute;
+	left: 10px;
+	top:-14px
+}
+
+#free{
+	width: 52px;
+	height: 28px;
+	background: url(../images/bglashou.png) no-repeat -54px 0px;
+	position: absolute;
+	left: 58px;
+	top:-14px
+}
+/*背景图结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

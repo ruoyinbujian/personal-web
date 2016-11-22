@@ -1,0 +1,121 @@
+@keyframes run {
+    0% {
+        left: -100%
+    }
+    50% {
+        left: 30px
+    }
+    100% {
+        left: 0px;
+    }
+}
+.clear{clear:both;}
+body{background:url("../images/789.jpg") no-repeat center top / cover;width:100%;height:100%; }
+#btn {
+    border:none;
+    width: 100px;
+    height: 30px;
+    margin-left:2px;
+    border-radius: 5px;
+    background: #1298ff;
+    line-height:30px;
+    text-align:center;
+    color: #fff;
+    float:left;
+    outline: none;
+}
+
+#box {
+    width: 798px;
+    margin: 50px auto;
+    font-family: "宋体";
+}
+h3{margin-top:20px;background: #fff7e8 ;width:200px;padding:0 8px;border-radius:4px;
+    box-shadow: 0 0 3px 0 #000 inset;
+    opacity:0.8;
+}
+#big {
+    width: 130px;
+    overflow: hidden;
+    height: 386px;
+}
+
+#cont {
+    width: 978px;
+}
+
+#big ul {
+    width: 130px;
+    list-style: none;
+    float: left;
+    border: 2px solid #ddd;
+    height: 300px;
+    text-align: center;
+    font-size: 16px;
+    background: #5bc0de;
+    opacity: 0.8;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.9) inset;
+    transition: all 0.5s;
+}
+
+#big li {
+    text-align: center;
+    line-height: 50px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+#big ul li:first-child {
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    height: 40px;
+    font-style: italic;
+}
+
+#big ul li:nth-child(3) {
+    line-height: 25px;
+    height: 25px;
+}
+
+#big ul {
+
+}
+
+#big ul:hover {
+    /*box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.8) inset;*/
+    /*transform:scale(1.1);*/
+    transform: translateY(-5px);
+}
+
+#big ul:nth-child(2) {
+    background: #31b0d5;
+    opacity: 0.8;
+}
+
+.active {
+    display: none;
+}
+
+#actor {
+    width:600px;
+    padding:10px;
+    height:85px;
+    border-radius:8px;
+    box-shadow: 0 0 10px 0 #000 inset;
+    opacity:0.8;
+    display: none;
+    position: relative;
+    animation: run 2s linear;
+    background: oldlace;
+}
+#actor img{width:22px;}
+#actor p {
+    text-indent: 2em;
+    position: absolute;
+    left: 0;
+    top: 45px;
+    z-index:5;
+
+}

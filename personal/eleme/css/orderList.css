@@ -1,0 +1,9 @@
+.orderList .order .item img{border-radius: 5px;}
+.orderList .order .item h2{font-family: "微软雅黑", "宋体", "arial"; font-size:16px; border-bottom: 1px solid #eee; padding: 5px 0; margin-bottom: 5px;}
+.orderList .order .item h2 .has-done{display: inline-block; font-size: 14px; color:#333; padding-bottom: 5px;}
+.orderList .order .item h2 .has-done span{color:#666}
+.orderList .order .item div.item-content{padding-right:15px;}
+.orderList .order .item .unit-price{margin-left: 10px;}
+.orderList .order .item .total{padding: 5px 0; line-height: 28px;}
+.orderList .order .item .total .price{font-size:18px; font-weight: bolder}
+.orderList .order .item .total .button{float: right;}

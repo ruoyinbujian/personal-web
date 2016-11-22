@@ -1,0 +1,51 @@
+<ion-view class="sellers">
+	<ion-header-bar class="bar-calm" align-title="center">
+		<h1 class="title">附近美食</h1>
+	</ion-header-bar>
+	<div class="bar bar-subheader orderBtn">
+		<div class="buttons row">
+			<a class="button button-light col" ng-click="chooseOrder('howfar')">离我最近</a>
+			<a class="button button-light col" ng-click="chooseOrder('-rated')">评价最高</a>
+			<a class="button button-light col" ng-click="chooseOrder('-intime')">速度最快</a>
+			<a class="button button-light col" ng-click="chooseOrder('atleast')">起送价最低</a>
+		</div>
+	</div>
+	<ion-content class="has-header has-subheader home-content sellers">
+		<ion-refresher pulling-icon="icon ion-load-d calm"
+					   pulling-text="下拉刷新"
+					   on-pulling = "onRefresh()"></ion-refresher>
+		<ion-list class="home-sellers">
+			<ion-item class="item-divider item-icon-left light-bg sellers-title">
+				<i class="icon ion-ios-home-outline"></i>
+				<h3>附近商家</h3>
+			</ion-item>
+			<ion-item class="item-thumbnail-left the-seller" ng-repeat="item in seller | orderBy:howOrderBy" ui-sref="tabs.shopping">
+				<img ng-src="{{item.imgsrc}}" class="seller-img">
+				<h3 class="seller-title item-divider light-bg">
+					<i class="main brand" ng-show="isShow.hot(item)">品牌</i>
+					<span class="main buttons-left">{{item.name}}</span>
+					<span class="note seller-title-icon">
+						<i class="title-icon" ng-show="isShow.protect(item)">保</i>
+						<i class="title-icon" ng-show="isShow.bill(item)">票</i>
+					</span>
+				</h3>
+				<p>
+					<span class="main stars">
+						<img src="images/home/stars1.png" style="background-position-x:{{item.rated*1.5-75}}px">
+						<span class="assertive rated"> {{item.rated/10}}</span>
+					</span>
+					<span class="main month"> 月售{{item.sales}}单</span>
+					<span class="note">
+						<i class="title-icon intime" ng-show="isShow.intime(item)">准时达</i>
+						<i class="title-icon express" ng-show="isShow.express(item)">蜂鸟快送</i>
+					</span>
+				</p>
+				<p>
+					<span class="main atleast">￥{{item.atleast}}起送  <span style="font-size: 10px; color:#666">/</span>  配送费￥{{item.distribution}}</span>
+					<span class="note">{{item.howfar}}m / <span class="calm"> {{item.when}}分钟</span></span>
+				</p>
+			</ion-item>
+		</ion-list>
+		<ion-infinite-scroll on-infinite="getSellers()" ng-if="totalPages>page" immediate-check="false"></ion-infinite-scroll>
+	</ion-content>
+</ion-view>

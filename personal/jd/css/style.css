@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,li,ul,ol,dt,dl,dd,input,p{margin:0;padding:0;}
+body{font-family:arial,"微软雅黑","宋体";}
+ol,ul{list-style:none;}
+input,img{border:none;}
+a{text-decoration:none;}
+i{font-style:normal;}
+.clear:after{
+	content:"200B";
+	display:block;
+	font-size:0;
+	line-height:0;
+	clear:both;
+	}
+.clear{*zoom:1}
+.top{height:30px;background:#f1f1f1;}
+.top-inner{width:1210px;margin:0 auto}
+.top-inner .map{float:left;font-size:12px;font-family:"宋体";font-weight:normal;line-height:30px;color:#818181;}
+.top-inner .map a{color:#818181;}
+.top-inner .map  i{width:10px;height:5px;font-family:consolas;font-size:14px;display:inline-block;line-height:0px;overflow:hidden;padding-left:9px;}
+.top .top-inner ul{float:right;}
+.top .top-inner ul li{float:left;line-height:30px;text-align:center;font-size:12px;}
+.top .top-inner ul li:hover{background:#fff;}
+.top .top-inner ul li a{color:#707070;margin:0 10px;font-family:"宋体";display:inline-block}
+.top .top-inner ul li a:hover{color:#cd303c}
+.top .top-inner ul .line{width:1px;height:12px;background:#ddd;margin-top:9px;}
+.top .top-inner ul li .hello{font-size:13px;color:#666;}
+.top .top-inner ul .loin:hover{background:none;}
+.top .top-inner ul li .free{font-size:12px;color:#cd303c;}
+.top .top-inner ul li span{width:15px;height:20px;background:url(../images/jd2015img.png) no-repeat;float:left;margin:5px 3px 0 0 }
+.top .top-inner ul li:hover span{background-position:0 -25px}
+.top .top-inner ul li:hover i{line-height:10px;}
+.top .top-inner ul li a i{width:10px;height:5px;margin-left:9px;line-height:1px;overflow:hidden;font-size:14px;font-family:consolas;display:inline-block;}
+.header{border-bottom:2px solid #b1191a;}
+.header-top{width:1210px;margin:0 auto;}
+.header .logo{width:270px;height:60px;float:left;padding-top:20px;}
+.header .search{float:left;padding:25px 0 0 92px;}
+.header .search .text{width:450px;height:32px;border:2px solid #b61d1d;float:left;font-size:14px;color:#666;padding-left:4px;}
+.header .search .submit{width:80px;height:36px;background:#b61d1d;float:left;font-size:15px;color:#fff;}
+.header .search .little-nav{width:538px;height:27px;overflow:hidden;}
+.header .search .little-nav a{font-size:13px;margin-right:11px;line-height:27px;color:#666;float:left;font-family:"宋体";}
+.header .search .little-nav .red{color:#cb212d}
+.header .search .little-nav a:hover{color:#cb212d}
+.header .buy{float:right;width:96px;height:34px;border:1px solid #dfdfdf;background-color:#f9f9f9;margin:25px 65px 0 0;padding-left:43px;position:relative;background:url(../images/jd2015img.png) no-repeat 18px -49px;}
+.header .buy a{font-size:12px;line-height:34px;font-family:"宋体";color:#8b8b8b;}
+.header .buy i{font-size:15px;color:#bebebe;font-family:consolas;float:right;padding-right:11px;line-height:34px;}
+.header .buy .number{height:14px;background-color:#c81623;font-size:12px;text-align:center;line-height:16px;border-radius:5px 5px 5px 0;position:absolute;top:-4px;left:104px;color:#fff;padding:0 5px;}
+.header-bot{width:1210px;margin:0 auto;position:relative;font-size:0}
+.header-bot .all{width:200px;height:44px;background-color:#b1191a;line-height:44px;padding-left:10px;color:#fff;font-size:15px;font-weight:bold;float:left;margin-top:12px;}
+.header-bot .funav{float:left;margin-top:14px;}
+.header-bot .funav .new{position:relative}
+.header-bot .funav .new:after{content:"";width:21px;height:18px;background:url(../images/images/new_03.jpg) no-repeat;position:absolute;top:100%;top:0}
+.header-bot .funav a{margin:0 20px;font-size:17px;color:#333;line-height:42px;float:left;}
+.header-bot .funav a:hover{color:#cb212d;}
+.footer{height:493px;padding-top:20px;}
+.footer .icon-four{height:79px;background-color:#f5f5f5;padding-top:15px;}
+.footer .icon-four ul{width:1210px;margin:0 auto;}
+.footer .icon-four ul li{float:left;width:25%;height:64px;background:url(../images/nva_bg.png) no-repeat;}
+.footer .icon-four ul li:nth-child(1){background-position:12px -125px;}
+.footer .icon-four ul li:nth-child(2){background-position:30px -189px;}
+.footer .icon-four ul li:nth-child(3){background-position:30px -253px;}
+.footer .icon-four ul li:nth-child(4){background-position:13px -318px;}
+.footer .list{width:1210px;height:184px;margin:16px auto;border-bottom:1px solid #e5e5e5;}
+.footer .list ul{width:964px;height:184px;float:left;}
+.footer .list ul li{width:199px;float:left;}
+.footer .list ul li:last-child{width:166px;}
+.footer .list ul li dt{font:normal 16px/33px "微软雅黑";color:#666;}
+.footer .list ul li dd{font:normal 12px/20px "宋体";}
+.footer .list ul li dd a{color:#7f7f7f;}
+.footer .list ul li dd a:hover{color:#b51d1a;}
+.footer .list .china{width:246px;height:184px;float:right;background:url(../images/20130330B_1.png) no-repeat 4px -137px;}
+.footer .list .china h4{font:normal 16px/33px "微软雅黑";color:#666;padding-left:17px}
+.footer .list .china p{font:normal 12px/18px "微软雅黑";color:#6a6a6a;padding:10px 41px 0 17px;}
+.footer .list .china .chakan a{font:normal 12px/18px "宋体";color:#6a6a6a;padding-right:41px;height:18px;float:right;}
+.footer .list .china .chakan a:hover{color:#b51d1a;}
+.footer .list span{font-family:arial;color:#666;font-weight:bold;}
+.footer .list .jt{padding-left:4px;}
+.footer .list dd:hover span{color:#b51d1a;}
+.footer .list .china .chakan a:hover span{color:#b51d1a;}
+.footer .foot{padding-top:10px;text-align:center;}
+.footer .foot .about{font:12px/37px "微软雅黑";height:37px;}
+.footer .foot .about a{color:#6b6b6b;}
+.footer .foot .about span{width:2px;height:11px;margin:-2px 11px;color:#6b6b6b;background-color:#b2b2b2;display:inline-block;}
+.footer .foot .about a:hover{color:#b51d1a;}
+.footer .foot .police{font:12px/20px "微软雅黑";color:#757575;}
+.footer .foot .police a{color:#757575;}
+.footer .foot .police i{padding:0 8px;}
+.footer .foot .police a:hover{color:#b51d1a;}
+.footer .foot .police a:hover span{color:#b51d1a;}
+.footer .foot .police span{font-family:arial;color:#666;font-weight:bold}
+.footer .foot .police .hui{width:178px;height:20px;display:inline-block;background:url(../images/56a0a994Nf1b662dc.png) no-repeat 0 0;padding-left:23px}
+.footer .foot .copy{font:12px/18px "宋体";color:#757575;}
+.footer .foot .copy a{color:#757575;}
+.footer .foot .copy a:hover{color:#b51d1a;}
+.footer .foot .tubiao{width:683px;margin:0 auto;padding-top:9px;}
+.footer .foot .tubiao a{margin-left:13px;float:left}
+.footer .foot .tubiao .no{margin-left:0;}
+.copy i{font-size:16px;vertical-align:middle;}

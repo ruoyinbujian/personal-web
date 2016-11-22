@@ -1,0 +1,48 @@
+<ion-view class="shopping">
+    <div class="bar bar-header bar-positive">
+        <div class="button button-icon ion-arrow-left-c" ui-sref="tabs.sellers"></div>
+        <h1 class="title">商品</h1>
+        <div class="button button-icon ion-ios-cart has-badge" ui-sref="tabs.shopCart" ng-controller="shopCartCtrl">
+            <span class="badge badge-calm" ng-show="totalNumber()">{{totalNumber()}}</span>
+        </div>
+    </div>
+    <ion-content class="has-header" delegate-handle="M">
+        <ion-item class="item-thumbnail-left seller">
+            <img src="images/seller/icon_02.jpeg">
+            <h2>汉堡家</h2>
+            <p>蜂鸟专送 / 37分钟送达</p>
+            <p><span>减</span>在线支付满25减15，满40减20，满60减30</p>
+        </ion-item>
+        <div class="row foods">
+            <ion-scroll class="col col-25 side-menu" scroll-height>
+                <ion-list class="item-text-wrap">
+                    <a class="item" ng-click="thistype()">
+                        <p>所有商品</p>
+                    </a>
+                    <a ng-repeat="items in types" class="item" ng-click="thistype(items)">
+                        <p>{{items}}</p>
+                    </a>
+                </ion-list>
+            </ion-scroll>
+            <ion-scroll class="col col-75" scroll-height delegate-handle="foodsScroll">
+                <ion-list ng-repeat="goods in data | filter:nowType ">
+                    <ion-item class="item-divider">
+                        {{goods.type}} <span class="item-note">大家喜欢吃，才叫真好吃</span>
+                    </ion-item>
+                    <ion-item class="item-thumbnail-left item-text-wrap" ng-repeat="food in goods.foods">
+                        <img ng-src="{{food.imgsrc}}">
+                        <h2>{{food.name}}</h2>
+                        <p class="info">{{food.info}}</p>
+                        <p>月售{{food.sales}}份，好评率{{food.likes}}%</p>
+                        <p class="price">
+                            {{food.price|currency:"￥"}}
+                            <span class="item-note append">
+                                <span class="button button-icon ion-plus-circled calm" ng-click="add(food)"></span>
+                            </span>
+                        </p>
+                    </ion-item>
+                </ion-list>
+            </ion-scroll>
+        </div>
+    </ion-content>
+</ion-view>

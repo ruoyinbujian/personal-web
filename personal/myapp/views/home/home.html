@@ -1,0 +1,331 @@
+<ion-view view-title="首页" hide-back-button="true">
+    <ion-side-menus>
+        <!--主内容区-->
+        <ion-side-menu-content>
+            <ion-header-bar class="bar-light item-input-inset" id="header_icon">
+                <button class="button button-clear icon-left ion-navicon" menu-toggle="left"
+                        style="margin-right:1em"></button>
+                <div class="item-input-wrapper">
+                    <i class="icon ion-ios-search"></i>
+                    <input type="search" placeholder="输入商户名称">
+                    <button class="button button-calm" ui-sref="tabs.detail"><i class="icon  ion-ios-arrow-thin-right button-dark"></i>
+                    </button>
+                </div>
+                <button class="button" style="margin-left:1em"><i class="icon ion-ios-location"></i>深圳</button>
+            </ion-header-bar>
+            <ion-content id="content">
+                <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" id="side_img">
+                    <ion-slide>
+                        <a class="box" ui-sref="tabs.detail"><img src="images/50.jpg"></a>
+                    </ion-slide>
+                    <ion-slide>
+                        <a class="box" ui-sref="tabs.detail"><img src="images/51.jpg"></a>
+                    </ion-slide>
+                    <ion-slide>
+                        <a class="box" ui-sref="tabs.detail"><img src="images/2_03.jpg"></a>
+                    </ion-slide>
+                </ion-slide-box>
+
+                <div class="card" id="avatar_img">
+                    <div class="row">
+                        <a class="col" ui-sref="tabs.detail">
+                            <img src="images/4.jpg">
+                        </a>
+                        <a class="col" ui-sref="tabs.detail">
+                            <img src="images/5.jpg">
+                        </a>
+                        <a class="col">
+                            <img src="images/6.jpg">
+                        </a>
+                        <a class="col">
+                            <img src="images/13.jpg">
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a class="col" ui-sref="tabs.detail">美食视频</a>
+                        <a class="col" ui-sref="tabs.detail">美食菜单</a>
+                        <a class="col" ui-sref="tabs.detail">美食活动</a>
+                        <a class="col" ui-sref="tabs.detail">最新食谱</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>--------------周围人都在看--------------</h4>
+                    <div class="row" id="row_img">
+                        <a class="col" ui-sref="tabs.detail">
+                            <img src="images/3.jpg">暴炒肉丝
+                        </a>
+                        <a class="col" ui-sref="tabs.detail">
+                            <img src="images/7.jpg">西班牙牛肉
+                        </a>
+                        <a class="col" ui-sref="tabs.detail">
+                            <img src="images/8.jpg">鲜虾杂锦
+                        </a>
+                        <a class="col" ui-sref="tabs.detail">
+                            <img src="images/6.jpg">芒果西米露
+                        </a>
+                    </div>
+                </div>
+                <h4>--------------精选--------------</h4>
+                <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" id="side_img2">
+                    <ion-slide>
+                        <div class="box"><img src="images/20.jpg"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="images/21.jpg"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="images/22.png"></div>
+                    </ion-slide>
+                </ion-slide-box>
+
+                <div class="card foodList">
+                    <div class="imgBox"><img src="images/13.jpg"></div>
+                    <div class="row">
+                        <div class="col"><p>好吃到爆的～新手也会做</p></div>
+                    </div>
+                    <div class="row icon-left">
+                        <div class="col">
+                            <i class="icon ion-ios-heart assertive"></i> 喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-thumbsdown positive"></i> 不喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-chatbox energized"></i> 评论
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-share balanced"></i> 分享
+                        </div>
+                    </div>
+                </div>
+                <div class="card foodList">
+                    <div class="imgBox"><img src="images/14.jpg"></div>
+                    <div class="row">
+                        <div class="col"><p>和大家一起分享美食吧～</p></div>
+                    </div>
+                    <div class="row icon-left">
+                        <div class="col">
+                            <i class="icon ion-ios-heart assertive"></i>喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-thumbsdown positive"></i>不喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-chatbox energized"></i>评论
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-share balanced"></i>分享
+                        </div>
+                    </div>
+                </div>
+                <div class="card foodList">
+                    <div class="imgBox"><img src="images/15.jpg"></div>
+                    <div class="row">
+                        <div class="col"><p>谁都能学会的</p></div>
+                    </div>
+                    <div class="row icon-left">
+                        <div class="col">
+                            <i class="icon ion-ios-heart assertive"></i>喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-thumbsdown positive"></i>不喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-chatbox energized"></i>评论
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-share balanced"></i>分享
+                        </div>
+                    </div>
+                </div>
+                <!--<ion-list class="padding card" id="foodList">
+                    <ion-item class="item item-image">
+                        <img src="images/15.jpg">
+                    </ion-item>
+                    <p>好吃到爆的～新手也会做</p>
+                    <ion-item class="item tabs tabs-icon-left">
+                        <ion-tab icon-on="icon ion-thumbsup" title="赞">
+
+                        </ion-tab>
+                    </ion-item>
+                </ion-list>-->
+
+            </ion-content>
+        </ion-side-menu-content>
+        <ion-side-menu side="left" width="150" id="sideList">
+            <ion-header-bar class="bar-energized">
+                <h1 class="title">全部分类</h1>
+            </ion-header-bar>
+            <ion-content>
+                <div class="list">
+                    <a class="item" ui-sref="#" menu-close><i class="icon ion-ios-home-outline"></i> 返回首页</a>
+                    <a class="item" menu-close ui-sref="tabs.talk"><i class="icon ion-ios-chatbubble-outline"></i> 圈圈</a>
+                    <a class="item" menu-close ui-sref="tabs.location"><i class="icon ion-ios-location-outline"></i> 附近餐厅</a>
+                    <a class="item" menu-close ui-sref="tabs.shop"><i class="icon ion-ios-person-outline"></i> 个人信息</a>
+                </div>
+            </ion-content>
+        </ion-side-menu>
+    </ion-side-menus>
+            <!--<ion-header-bar class="bar-light item-input-inset" id="header_icon">
+                <button class="button button-clear icon-left ion-navicon" menu-toggle="left"
+                        style="margin-right:1em"></button>
+                <div class="item-input-wrapper">
+                    <i class="icon ion-ios-search"></i>
+                    <input type="search" placeholder="输入">
+                    <button class="button button-calm"><i class="icon  ion-ios-arrow-thin-right button-dark"></i>
+                    </button>
+                </div>
+                <button class="button" style="margin-left:1em"><i class="icon ion-ios-location"></i>深圳</button>
+            </ion-header-bar>
+            <ion-content id="content">
+                <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" id="side_img">
+                    <ion-slide>
+                        <div class="box"><img src="images/2_03.jpg"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="images/16_03.jpg"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="images/17_03.jpg"></div>
+                    </ion-slide>
+                </ion-slide-box>
+                &lt;!&ndash;<div class="item tabs tabs-icon-left">
+                    <div class="tab-item">
+                        <i class="icon ion-thumbsup calm"></i>赞
+                    </div>
+                    <div class="tab-item">
+                        <i class="icon ion-thumbsdown positive"></i>踩
+                    </div>
+                    <div class="tab-item">
+                        <i class="icon ion-chatbox energized"></i>评论
+                    </div>
+                    <div class="tab-item">
+                        <i class="icon ion-share balanced"></i>分享
+                    </div>
+                </div>&ndash;&gt;
+                <div class="card" id="avatar_img">
+                    <div class="row">
+                        <div class="col">
+                            <img src="images/3.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="images/7.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="images/8.jpg">
+                        </div>
+                        <div class="col">
+                            <img src="images/6.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">美食视频</div>
+                        <div class="col">美食菜单</div>
+                        <div class="col">美食活动</div>
+                        <div class="col">最新食谱</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;周围人都在看&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</h4>
+                    <div class="row" id="row_img">
+                        <div class="col">
+                            <img src="images/3.jpg">暴炒肉丝
+                        </div>
+                        <div class="col">
+                            <img src="images/7.jpg">西班牙牛肉
+                        </div>
+                        <div class="col">
+                            <img src="images/8.jpg">鲜虾杂锦
+                        </div>
+                        <div class="col">
+                            <img src="images/6.jpg">芒果西米露
+                        </div>
+                    </div>
+                </div>
+                <h4>&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;精选&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</h4>
+                <ion-slide-box does-continue="true" auto-play="true" slide-interval="3000" id="side_img2">
+                    <ion-slide>
+                        <div class="box"><img src="images/20.jpg"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="images/21.jpg"></div>
+                    </ion-slide>
+                    <ion-slide>
+                        <div class="box"><img src="images/22.png"></div>
+                    </ion-slide>
+                </ion-slide-box>
+
+                <div class="card foodList">
+                    <div class="imgBox"><img src="images/13.jpg"></div>
+                    <div class="row">
+                        <div class="col"><p>好吃到爆的～新手也会做</p></div>
+                    </div>
+                    <div class="row icon-left">
+                        <div class="col">
+                            <i class="icon ion-ios-heart assertive"></i>喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-thumbsdown positive"></i>不喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-chatbox energized"></i>评论
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-share balanced"></i>分享
+                        </div>
+                    </div>
+                </div>
+                <div class="card foodList">
+                    <div class="imgBox"><img src="images/14.jpg"></div>
+                    <div class="row">
+                        <div class="col"><p>和大家一起分享美食吧～</p></div>
+                    </div>
+                    <div class="row icon-left">
+                        <div class="col">
+                            <i class="icon ion-ios-heart assertive"></i>喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-thumbsdown positive"></i>不喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-chatbox energized"></i>评论
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-share balanced"></i>分享
+                        </div>
+                    </div>
+                </div>
+                <div class="card foodList">
+                    <div class="imgBox"><img src="images/15.jpg"></div>
+                    <div class="row">
+                        <div class="col"><p>谁都能学会的</p></div>
+                    </div>
+                    <div class="row icon-left">
+                        <div class="col">
+                            <i class="icon ion-ios-heart assertive"></i>喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-thumbsdown positive"></i>不喜欢
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-chatbox energized"></i>评论
+                        </div>
+                        <div class="col">
+                            <i class="icon ion-share balanced"></i>分享
+                        </div>
+                    </div>
+                </div>
+                &lt;!&ndash;<ion-list class="padding card" id="foodList">
+                    <ion-item class="item item-image">
+                        <img src="images/15.jpg">
+                    </ion-item>
+                    <p>好吃到爆的～新手也会做</p>
+                    <ion-item class="item tabs tabs-icon-left">
+                        <ion-tab icon-on="icon ion-thumbsup" title="赞">
+
+                        </ion-tab>
+                    </ion-item>
+                </ion-list>&ndash;&gt;
+
+            </ion-content>-->
+</ion-view>

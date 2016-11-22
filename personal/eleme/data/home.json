@@ -1,0 +1,18 @@
+{
+  "banner":[
+    {"imgsrc":"images/home/banner_04.jpg"},
+    {"imgsrc":"images/home/banner_02.jpg"},
+    {"imgsrc":"images/home/banner_03.jpg"},
+    {"imgsrc":"images/home/banner_01.jpg"}
+  ],
+  "icons":[
+    {"name":"美食","imgsrc":"images/home/icon_01.png"},
+    {"name":"土豪推荐","imgsrc":"images/home/icon_02.png"},
+    {"name":"品质早餐","imgsrc":"images/home/icon_03.png"},
+    {"name":"准时达","imgsrc":"images/home/icon_04.png"},
+    {"name":"商店超市","imgsrc":"images/home/icon_05.png"},
+    {"name":"甜品饮品","imgsrc":"images/home/icon_06.png"},
+    {"name":"果蔬生鲜","imgsrc":"images/home/icon_07.png"},
+    {"name":"鲜花蛋糕","imgsrc":"images/home/icon_08.png"}
+  ]
+}

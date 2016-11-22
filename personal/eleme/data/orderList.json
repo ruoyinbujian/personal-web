@@ -1,0 +1,63 @@
+[
+  {
+    "order":"1",
+    "seller":"肯德基",
+    "imgsrc":"images/seller/icon_03.jpeg",
+    "foods":[
+      {"name":"外带全家桶","amount":"3","price":"88.00"},
+      {"name":"高级全家桶","amount":"2","price":"115.00"},
+      {"name":"劲脆鸡腿堡","amount":"1","price":"16.50"}
+    ],
+    "totalPrice":"",
+    "hasdone":"true",
+    "date":"2016-08-31 12:11"
+  },
+  {
+    "order":"1",
+    "seller":"麦当劳",
+    "imgsrc":"images/seller/icon_04.jpeg",
+    "foods":[
+      {"name":"5人欢享","amount":"2","price":"18.00"},
+      {"name":"高级全家桶","amount":"3","price":"25.00"},
+      {"name":"劲脆鸡腿堡","amount":"4","price":"36.50"}
+    ],
+    "hasdone":"true",
+    "date":"2016-08-30 13:11"
+  },
+  {
+    "order":"1",
+    "seller":"麻辣烫",
+    "imgsrc":"images/seller/icon_05.jpeg",
+    "foods":[
+      {"name":"外带全家桶","amount":"5","price":"17.00"},
+      {"name":"高级全家桶","amount":"8","price":"25.00"},
+      {"name":"劲脆鸡腿堡","amount":"3","price":"39.50"}
+    ],
+    "hasdone":"true",
+    "date":"2016-08-29 14:11"
+  },
+  {
+    "order":"1",
+    "seller":"小龙虾",
+    "imgsrc":"images/seller/icon_01.jpeg",
+    "foods":[
+      {"name":"外带全家桶","amount":"7","price":"55.00"},
+      {"name":"高级全家桶","amount":"2","price":"13.00"},
+      {"name":"劲脆鸡腿堡","amount":"4","price":"25.50"}
+    ],
+    "hasdone":"true",
+    "date":"2016-08-28 15:11"
+  },
+  {
+    "order":"1",
+    "seller":"烧烤",
+    "imgsrc":"images/seller/icon_02.jpeg",
+    "foods":[
+      {"name":"外带全家桶","amount":"5","price":"43.00"},
+      {"name":"高级全家桶","amount":"5","price":"25.00"},
+      {"name":"劲脆鸡腿堡","amount":"6","price":"55.50"}
+    ],
+    "hasdone":"true",
+    "date":"2016-08-27 16:11"
+  }
+]
